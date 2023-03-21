@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <script>
+            let institution={
+                  name:"techatcore",
+                  location:"NZB",
+                  year:2022,
+                  hr:"Mr.Prasad",
+                  address:"MadhavNagar",
+                  role:"Intern",
+                  batch:4,
+                  favGame:"cricket",
+                  count:8,
+                  expertArea:"javascript",
+                  2023: "happy new year"
+            };
+            // printing the object:
+            console.log(institution);
+            // we can access values by using keys in 2 ways:
+            console.log(institution.location)  //DOT KEY NOTATION
+            console.log(institution["role"]) //SQUARE BRACKET NOTATION is 2nd method
+            console.log(institution[2023]) //cannot use DOT KEY NOTATION for numeric key
+            ///////////////////////////////////////////////////
+            institution.month="December"; //adding a new element
+            console.log(institution);  
+            institution.location="HYD";  //replacing the value of key using DOT KEY
+            institution["name"]= "infosys"; //replacing the value of key using SQUARE BRACKET
+            console.log(institution);
+            // deleting an element from object
+            // delete institution.year;
+            // delete institution["year"];
+            // console.log(institution);
+      </script>
+</body>
+</html>

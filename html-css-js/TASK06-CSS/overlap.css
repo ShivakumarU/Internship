@@ -1,0 +1,96 @@
+body{
+      background-color:white;
+}
+h1{
+      text-align: center;
+      margin-top:90px;
+      font-size: 50px;
+}
+h4{
+      text-align: center;
+      font-size: 18px;
+}
+p{
+      color: black;
+      text-align: center;
+      font-size: 18px;
+}
+.box1{
+      background-image: linear-gradient(to right,#9932CC, #8b008b ,#9400D3,#1E90FF);
+      width: 1300px;
+      padding: 50px;
+      margin: 20px;
+}
+.boxa{
+     background-color:cornflowerblue;
+     width: 180px;
+     height:200px;
+     margin:165px;
+     border-radius: 20px;
+}
+.boxb{
+      background-color:tomato;
+      width: 180px;
+      height:200px;
+      margin-left: 450px ;
+      position:relative; top: -395px;
+      border-radius:20px;
+      
+}
+.boxc{
+      background-color:lightseagreen;
+      width: 180px;
+      height:200px;
+      margin-left: 780px ;
+      position:relative; top: -570px;
+      border-radius:20px;
+      
+}
+.boxd{
+      background-color:coral;
+      width: 180px;
+      height:200px;
+      margin-left: 1050px ;
+      position:relative; top: -790px;
+      border-radius: 20px;
+      
+}
+.boxw{
+      background-color:silver;
+      width: 180px;
+      height:200px;
+      margin-left: 1075px ;
+      position:relative; top: -930px;
+      border-radius: 20px;
+      padding:3px;
+      
+}
+.boxx{
+      background-color:silver;
+      width: 180px;
+      height:200px;
+      margin-left: 755px ;
+      position:relative; top: -1110px;
+      border-radius: 20px;
+      padding:3px;
+      
+}
+.boxy{
+      background-color:silver;
+      width: 180px;
+      height:200px;
+      margin-left: 475px ;
+      position:relative; top: -1340px;
+      border-radius: 20px;
+      padding:3px;
+      
+}
+.boxz{
+      background-color:silver;
+      width: 180px;
+      height:200px;
+      margin:135px;
+      position: relative; top:-1650px;
+      border-radius: 20px;
+      padding: 3px;
+ }

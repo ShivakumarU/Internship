@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <script>
+            let emp1 = {};
+            emp1.firstName = "Shiva";
+            emp1.lastName = "Kumar";
+            emp1.gender = "M";
+            console.log(emp1);
+            function EmpObj(firstName, lastName, gender) {
+            var newObj = {};
+            newObj.firstName = firstName;
+            newObj.lastName = lastName;
+            newObj.gender = gender;
+            return newObj;
+            }
+            let emp2 = EmpObj("Shiva", "Kumar", "M");
+            function createEmpObj(firstName, lastName, gender) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.gender = gender;
+            }
+            let emp3 = new createEmpObj("Shivakumar", "Ummeda", "M");
+      </script>
+</body>
+</html>

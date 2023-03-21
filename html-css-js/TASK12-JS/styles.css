@@ -1,0 +1,94 @@
+  .mark{
+      background-image: linear-gradient(to right, tomato,white,forestgreen);
+      font-size: 25px;
+      width: 500px;
+      margin-left: 490px;
+      box-shadow: 10px 10px 70px blue;
+  }
+  #output{    
+      position: absolute;
+      border: 5px solid gray;
+      width: 30%;
+      height: 50vh ;
+      overflow: scroll;
+      top: 195px;
+      right: 180px;
+      background-image: linear-gradient(to bottom,wheat,white,rgb(200, 199, 199),white,wheat);
+      box-shadow: 10px 10px 55px 10px rgb(14, 14, 14);
+  
+  }
+  ::-webkit-scrollbar{
+      background-color: white;
+      width: 5px;
+  }
+  ::-webkit-scrollbar-thumb{
+      background-color: black;
+      border-radius: 12px;
+      width: 100%;
+  }
+  
+  .division{ 
+      position: relative;
+      top: 100px;
+      color:darkslategray;
+      font-weight:bold;
+      font-size: 20px;
+      left: 100px;
+      margin-right: 150px;
+      text-shadow: 1px 1px 5px rgb(187, 219, 139);
+  }
+  h1{
+      text-align: center;
+      color:darkgreen;
+  }
+  input:focus{
+      background-color:gray;
+      color:white;
+      font-size:15px;
+  
+  }
+  button{
+      cursor: pointer;
+      width: 200px;
+      height: 40px;
+      margin:20px;
+      font-weight: bold;
+      border-radius: 10px;
+      margin-left: 100px;
+      box-shadow: 7px 8px 20px black;
+  }
+  button:hover{
+      background-color: forestgreen;
+      color: wheat;
+      font-size:20px;
+      box-shadow: 10px 10px 20px blue;
+  }
+  input{
+      position: relative;
+      height: 25px;
+      width: 200px;
+      box-shadow: 7px 8px 30px black;
+  }
+  input:hover{
+      height:20px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 15px blue;
+  }
+  #input1{
+      left: 39px;
+  }
+  #input2{
+      left: 80px;
+  }
+  #input3{
+      left: 75px;
+  }
+  #input4{
+      left: 108px;
+  }
+  #B1{
+    width: 300px;
+    height:60px;
+    margin-left: 55px;
+  }
+  

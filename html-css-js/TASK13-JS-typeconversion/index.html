@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <h1>type conversion:</h1><br><br>
+      <p id="para"></p>
+      <script>
+            
+            document.getElementById("para").innerHTML=
+            Number("1.22")+ +"<br>"+
+            Number("shiva")+"<br>"+
+            Number("")+"<br>"+
+            Number("12 34")+"<br>"+
+            Number(null)+"<br>"+
+            String(123)+typeof String("123")+"<br>"+
+            Number(false)+"<br>"+
+            Number(true);
+            let a="shiva";b=+a;
+            document.write(typeof a,"<br>" ,typeof b, "<br>", Date().toString());//converts dates to strings
+            document.write("<br>",false.toString());
+            let c=["shiva","kumar","ummeda"]
+            document.write("<br>",typeof c)
+            let x=5;y=4;
+            document.write("<br>addition is: ",x+y,"<br>substraction is:",x-y,"<br>multiplication is: ",x*y,
+            "<br>division is: ",x/y,"<br>mod is: ",x%y);
+            document.write("<br>typeof string(x) is: ",typeof String(x))
+      </script>
+</body>
+</html>

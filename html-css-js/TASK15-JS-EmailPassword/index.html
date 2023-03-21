@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="styles.css">
+      
+</head>
+<body>
+  <div class="parent">  
+       <img class="IMAGE" src="usericon.png" alt="userimage" > 
+       <div class="child1">
+             <img class="icon1" src="usericon.png" alt="usericon" >
+             <input type="email" id="username" placeholder="USERNAME">
+       </div>  
+       <div class="child2">
+             <img class="icon2" src="lock.png" alt="locksymbol" >
+             <input class="input2" type="password" id="passwrd" placeholder="PASSWORD">
+             <input type="image" src="eyeopen.png" onclick="myShow()" id="sho">
+             <input type="image" src="eyeclose.png" id="hid">
+       </div> 
+       <div class="child3">
+            <div class="child4">
+              <input type="checkbox" id="boxcheck">
+              <label for="boxcheck">Remember me</label>
+            </div>
+            <a href="https://www.google.com" title="Click">forgot password?</a>
+       </div>
+       <button type="submit" title="click" onclick="mail()">Login</button>
+  </div>
+  <marquee behavior="scroll" scrollamount="20" direction="left" id="output"></marquee>   
+
+
+      <script src="index.js"></script>    
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mini-Project</title>
+      <link rel="stylesheet" href="mini.css">
+</head>
+<body>
+      <div id="firstDiv">
+            
+            <form id="FORM">
+                  <h4 id="title">Create Your Account </h4>
+                  <span id="span_1">Already a registered user? Please <button id="btn111"> sign in </button>  with your login credentials</span>
+                  <div class="input1">
+                        <label class="mainLabel">Email Address:<span id="star">*</span></label>
+                        <input type="email" placeholder="Enter your Email ID..." id="Email"  autocomplete="off" required>
+                  </div>
+                  <span id="error1" class="error-color"></span>
+                  <div class="input2">
+                        <label class="mainLabel">Create Password:<span id="star">*</span></label>
+                        <input type="password" placeholder="create your password..." id="Password"  required>
+                        <button id="show1">show</button> 
+                  </div>     
+                  <span id="error2" class="error-color"></span>
+                  <div id="password-info">
+                        <ul>
+                              <li id="list1">Password must be at least 8 characters long.</li>
+                              <li id="list2">Password must contain at least one lower case.</li>
+                              <li id="list3">Password must contain at least one upper case.</li>
+                              <li id="list4">Password must contain at least one numeric value.</li>
+                              <li id="list5">Password must contain at least one special character.</li>
+                        </ul>
+                  </div>
+                  <div class="input3">
+                        <label class="mainLabel">Confirm Password:<span id="star">*</span></label>
+                        <input type="password" placeholder="Re-Enter your password..." id="confirm-Password" required>
+                        <button id="show2">show</button>
+                  </div>
+                  <span id="error3" class="error-color"></span>
+                  <div class="input4">
+                        <label class="mainLabel">Mobile no:<span id="star">*</span></label>
+                        <input type="text" placeholder="Format: +91-9494558983" id="mobile" autocomplete="off" minlength="1" maxlength="14" required>
+                  </div>
+                  <span id="error4" class="error-color"></span>
+                  <div class="input5">
+                        <label class="mainLabel">Nationality:<span id="star">*</span></label>
+                        <select id="countries">
+                              <option value="">--select your country--</option>
+                              <option value="">India</option>
+                              <option value="">Australia</option>
+                              <option value="">Srilanka</option>
+                              <option value="">Germany</option>
+                              <option value="">Canada</option>
+                              <option value="">Brazil</option>
+                              <option value="">Jordan</option>
+                              <option value="">Egypt</option>
+                              <option value="">Zimbabwe</option>
+                              <option value="">New Zealand</option>
+                        </select>
+                  </div>
+                  <button id="signup" type="button">Create Account</button>
+            </form>
+      </div>
+      <div id="divHidden">
+            <form id="FORM2">
+            <h4 id="loginDetails">Login Here :</h4>
+            <div class="input11">
+                  <label class="hiddenLabel">Email/Mobile no:<span id="star">*</span></label>
+                  <input type="email" placeholder="Enter your Email / Mobile no:" id="email1" autocomplete="off" required>
+            </div>
+            <span id="error11"></span>
+            <div class="input12">
+                  <label class="hiddenLabel">Password:<span id="star">*</span></label>
+                  <input type="password" placeholder="Enter your password..." id="password1" required>
+                  <button id="show3" type="button">show</button>
+            </div>
+            <span id="error12"></span><br>
+            <button id="login" type="button">Login</button><br>
+            <span id="span12">Don't you have an account yet? <button id="btn12"> Create Account</button></span>
+            </form>
+      </div>
+      <script src="mini.js"></script>
+</body>
+</html>

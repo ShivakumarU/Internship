@@ -1,0 +1,50 @@
+*{
+      margin:0;
+      padding:0;
+}
+body{
+      height:100vh;
+      background: black;
+}
+.parent{
+      background-color: steelblue;
+      width: 32%;
+      height: 30vh;
+      margin: 33vh 0px 0px 35%;
+      /* box-shadow: 1px 1px  white; */
+      border-radius: 10px;
+      border: 1px solid black;
+      -webkit-box-reflect: below 1px linear-gradient(transparent, rgb(141, 81, 81,0.25));
+      animation-name: example;
+      animation-duration: 1s;
+      animation-iteration-count:infinite;
+      position:relative;
+}
+@keyframes example{
+      /* from{background-color: steelblue;
+      }
+      to{background-color: black;
+      } */
+
+      100%{background-color: black; top: 1%;}
+}
+.child1{
+      color: wheat ;
+      font-weight: bold;
+      font-size: 30px;
+      text-shadow:5px 5px 5px black;
+      margin: 45px 0px 0px 70px ;
+}
+.child2{
+      color: wheat;
+      font-weight: bold;
+      font-size: 65px;
+      text-shadow:5px 5px 5px black;
+      margin: 22px 0px 0px 47px;
+}
+.child2 span:last-child{
+      font-size: 40px;
+      padding: 0px 8px;
+      position: relative;
+      bottom: 5px;
+}

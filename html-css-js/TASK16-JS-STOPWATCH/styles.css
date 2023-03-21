@@ -1,0 +1,59 @@
+body{
+      margin: 0;
+      padding: 0;
+      background-color: black;
+}
+#main{
+     background: linear-gradient(135deg,dodgerblue,rgb(96, 96, 13),green,tomato);
+     width: 350px; 
+     height: 150px;
+     margin: 270px 0 0 450px ;
+     border-radius: 15px;
+     animation-name: shiva;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     
+}
+@keyframes shiva{
+      from{background: linear-gradient(135deg,dodgerblue,rgb(96, 96, 13),green,tomato)}
+      to{background: black;box-shadow: 18px 18px 100px yellow}
+}
+#child{
+      position: relative;
+      background-color: black;
+      width: 340px;
+      height: 140px;
+      top: 5px;
+      left: 5px;
+      color: white;
+      border-radius: 15px;
+}
+button{
+      margin: 95px 0 0 35px ;
+      outline: none;
+      width: 65px;
+      height: 25px;
+      background-color: burlywood;
+      color: black;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 1s;
+}
+button:hover{
+      color: white;
+      background-color: dodgerblue;
+      border: 1px solid dodgerblue;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+}
+#div1{
+      position: absolute;
+      width: 250px;
+      height: 50px;
+      color: white;
+      font-size: 45px;
+      top: 25px;
+      left: 45px;
+      padding-left: 25px;
+}
+

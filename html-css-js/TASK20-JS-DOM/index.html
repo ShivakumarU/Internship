@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main">
+      <div id="main1">
+          <select id="colors" onchange="mySelect()">
+              <option value="select" id="color0" >select</option>
+              <option value="Black" id="color1" >Black</option>
+              <option value="Green" id="color2" >Green</option>
+              <option value="Wheat" id="color3" >Wheat</option>
+              <option value="Tomato" id="color4" >Tomato</option>
+              <option value="Brown" id="color5">Brown</option>
+          </select>
+          <div id="buTTons">
+                <button id="yelLow" type="button" onclick="document.getElementById('outPut').style.backgroundColor = 'yellow'">yellow</button>
+                <button id="purPle" type="button" onclick="document.getElementById('outPut').style.backgroundColor = 'purple'">purple</button>
+                <button id="oraNge" type="button" onclick="document.getElementById('outPut').style.backgroundColor = 'orange'">orange</button>
+                <button id="bLue" type="button" onclick="document.getElementById('outPut').style.backgroundColor = 'blue'">blue</button>
+          </div>
+          <div id="outPut"></div>
+      </div>  
+      <div id="main2">
+        <img src="pic_bulboff.gif" alt="bulbofff" id="off">
+        <button type="button" id="newB" onclick="onOff()"><span id="spanB">OFF</span></button>
+      </div>
+  </div> 
+  <script src="index.js"></script>
+</body>
+</html>

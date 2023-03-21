@@ -1,0 +1,121 @@
+#main{
+      display: flex;
+      column-gap: 5%;
+}
+#main1{
+      border: 5px solid black;
+      width: 45%;
+      height: 95vh;
+}
+#colors{
+     width: 150px;
+     height: 30px; 
+     color: none;
+     margin: 50px 0px 0px 50px;
+     border: 3px solid black;
+     box-shadow: 5px 10px 15px black;
+}
+#color1{
+      background-color: black;
+      color: white;
+}
+#color2{
+      background-color: forestgreen;
+      color: white;
+}
+#color3{
+      background-color: wheat;
+      color: black;
+}
+#color4{
+      background-color: tomato;
+      color: black;
+}
+#color5{
+      background-color: brown;
+      color: white;
+}
+#outPut{
+      border: 2px solid black ;
+      width: 90%;
+      height: 60vh;
+      margin: -20px 0 0px 30px;
+      box-shadow: 5px 5px 7px black;
+
+}
+#buTTons{
+      display: flex;
+      flex-direction: column;
+      width: 23%;
+      row-gap: 10px;
+      margin: 0px 0px 0px 350px;
+      position: relative;
+      top: -55px;
+}
+#yelLow,#bLue,#purPle,#oraNge{
+      border-radius: 20px;
+      height: 35px;
+      font-weight: bold;
+      box-shadow: 5px 5px 10px black;
+      cursor: pointer;
+}
+#yelLow:hover{
+      background-color: yellow;
+      font-weight: bold;
+}
+#purPle:hover{
+      background-color: purple;
+      color: white;
+      font-weight: bold;
+}
+#oraNge:hover{
+      background-color: orange;
+      font-weight: bold;
+}
+#bLue:hover{
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+}
+#colors:hover{
+      font-weight: bold;
+}
+#main2{
+      border: 5px solid black;
+      width: 45%;
+      height: 95vh;
+}
+#off{
+      position: absolute;
+      width: 20%;
+      right: 18%;
+      top: 8%;
+}
+#newB{
+      width: 65px;
+      height: 32px;
+      border-radius: 50px;
+      border: 0;
+      outline: 0;
+      cursor: pointer;
+      background-color: gray;
+      margin: 10px 10px;
+      box-shadow: 5px 10px 15px black;
+}
+button span{
+      display: block;
+      width: 26px;
+      height: 19px;
+      background-color: white;
+      border-radius: 50%;
+      margin-left: -3.6px;
+      transition: 0.8s;
+}
+#spanB{
+      font-size: 10px;
+      font-weight:bold;
+      padding-top: 5px;
+}
+
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list items display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Generating a bill for the items purchased</h1>
+    <marquee class="mark">welcome to tech.at.core</marquee>
+        <div class="division">
+            <label for="text">Enter the Product id :</label>
+            <input type="text" id="input1" placeholder="#1939f6"><br><br><br>
+            <label for="cost">Cost of the item :</label>
+            <input type="number" id="input2" placeholder="$200"><br><br><br>
+            <label for="text">item-description :</label>  
+            <input type="text" id="input3" placeholder="smart-watch">
+            <br><br><br><br>
+            <label for="date">Date & Time :</label>
+            <input  type="datetime-local" id="input4" ><br><br><br>
+            <button type="button" onclick="insert()">Add items</button><br>
+            <button type="button" id="B1" onclick="display()">Show the list</button>
+        </div>
+    <p id="output"></p>
+
+
+<script src="index.js"></script>
+</body>
+</html>

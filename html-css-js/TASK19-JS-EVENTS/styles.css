@@ -1,0 +1,44 @@
+#main{
+      width: 60%;
+      height: 50vh;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      background-color: #b9b8b8;
+      border-radius: 50px;
+      justify-content: space-evenly;
+      padding-top: 10vh;
+      top: 20vh;
+      left: 18%;
+}
+#btn1,#btn2,#btn3{
+      width: 100px;
+      border-radius: 20px;
+      border: none;
+      padding: 3px;
+      font-weight: bold;
+}
+#btn1{
+      background-color: rgb(82, 142, 23);
+      color: white;
+}
+#btn2{
+      background-color: rgb(96, 35, 96);
+      color: white;
+}
+#btn3{
+      background-color: aquamarine;
+      color: rgb(58, 39, 4);
+}
+#btn1:hover{
+      background-color: white;
+      color: black;
+}
+#btn2:hover{
+      background-color: white;
+      color: black;
+}
+#btn3:hover{
+      background-color: white;
+      color: black;
+}

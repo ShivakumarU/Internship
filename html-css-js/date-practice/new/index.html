@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <p id="output"></p>
+      <script>
+            let text= "India is my country and telangana is my state"
+
+            let x1 = text.match(/india/i)   //case-insensitive
+            let x2 = text.match(/is/g)      //global match
+            let x3 = text.match(/[mn]/g)    //characters bw brackets
+            let x4 = text.match(/i+/g)      //matches atleast one i
+
+            let num="1235647894"
+            let x5 = num.match(/[1-4]/g)    //digits bw brackets
+            document.getElementById("output").innerHTML = x5;
+      </script>
+</body>
+</html>

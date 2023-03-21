@@ -1,0 +1,199 @@
+body{
+     background-color: black;
+}
+div.one{
+      background-image: linear-gradient(to right, green,tomato,violet,purple,orange);
+      width: 1470px;
+      height: 100px;
+      margin-top: 15px;
+}
+p.three{
+      color: white;
+      font-size: 25px;
+      font-weight:bold;
+      margin: 8px 0px 0px 50px;
+}
+p.three::first-letter{
+      color:black;
+      font-size: 35px;
+}
+p.four{
+      color: white;
+      text-align: center;
+      font-size: 25px;
+      font-weight:bold;
+      padding-top: 10px;
+}
+h4{
+      color:bisque;
+      text-align: center;
+      font-size: 50px;
+      letter-spacing: 1px;
+      text-shadow: 3px 2px green;
+      font-family:cursive "Brush Script m7";
+}
+h5.two{
+      text-align: center;
+      color: black;
+      font-size:18px;
+      padding: 20px ;
+}
+h5.five{
+      text-align: center;
+      color: black;
+      font-size:18px;
+      padding: 1px 0px 0px 0px;
+}
+h5.seven{
+      text-align: center;
+      color: black;
+      font-size:18px;
+      padding: 0px 0px 0px 0px;
+}
+h5.nine{
+      text-align: center;
+      color: black;
+      font-size:18px;
+      padding: 0px 0px 0px 0px;
+}
+h6{
+      color: white;
+      font-style:italic;
+      text-align: center;
+      opacity: 0.3;
+      font-size: 20px;
+      font-family: "Lucida Handwriting";
+      letter-spacing: 1px;
+      margin: -55px 0px 0px 0px;
+}
+.img1{
+      width:190px;
+      height: 150px;
+      float: right;
+      margin: -140px 265px 10px 1000px; 
+}
+.img2{
+      width:190px;
+      height: 150px;
+      
+      float: left;
+      margin: -160px 5px 10px 270px;
+}
+div.two{
+      background-color: yellow;
+      width: 150px;
+      height: 180px;
+      margin:190px 0px 0px 150px ;
+      border-radius: 18px;
+      box-shadow: 5px 7px 0px white;
+      background-attachment: fixed;
+}
+div.three{
+      background-color: tomato;
+      width: 150px;
+      height: 180px;
+      margin:-230px 0px 0px 190px ;
+      border-radius: 18px;
+      position: absolute;
+      z-index: -1;
+      box-shadow: 5px 7px  white;
+      background-attachment: fixed;
+}
+div.four{
+      background-color: green;
+      width: 150px;
+      height: 180px;
+      margin:-230px 0px 0px 450px ;
+      border-radius: 18px;
+      box-shadow: 5px 7px  white;
+      background-attachment: fixed;
+}
+div.five{
+      background-color: lightslategray;
+      width: 150px;
+      height: 180px;
+      margin:-130px 0px 0px 490px ;
+      border-radius: 18px;
+      position: absolute;
+      z-index: 1;
+      box-shadow: 5px 7px white;
+      background-attachment: fixed;
+}
+div.six{
+      background-color: purple;
+      width: 150px;
+      height: 180px;
+      margin:-155px 0px 0px 800px ;
+      border-radius: 18px;
+      box-shadow: 5px 7px  white;
+      background-attachment: fixed;
+}
+div.seven{
+      background-color: lightpink;
+      width: 150px;
+      height: 180px;
+      margin:-230px 0px 0px 760px ;
+      border-radius: 18px;
+      position: absolute;
+      z-index: 1;
+      box-shadow: 5px 7px white;
+      background-attachment: fixed;
+}
+div.eight{
+      background-color: dodgerblue;
+      width: 150px;
+      height: 180px;
+      margin:-155px 0px 0px 1060px ;
+      border-radius: 18px;
+      box-shadow: 5px 7px white;
+      background-attachment: fixed;
+}
+div.nine{
+      background-color:bisque;
+      width: 150px;
+      height: 180px;
+      margin:-230px 0px 0px 1100px ;
+      border-radius: 18px;
+      position: absolute;
+      z-index: 1;
+      box-shadow: 5px 7px 0px white;
+      background-attachment: fixed;
+}
+ul.two{
+      list-style-type: circle;
+}
+ul.five{
+      list-style-type: square;
+}
+ol.seven{
+      list-style-type: upper-roman;
+}
+ol.nine{
+      list-style-type: lower-alpha;
+}
+div.ten{
+      background-color: green;
+      color: white;
+      width: 100px;
+      padding: 20px;
+      text-align: center;
+      margin: 300px 0px 0px 500px;
+}
+div.ten:hover{
+      background-color: blue;
+}
+div.ten:active{
+      background-color: grey;
+}
+div.eleven{
+      background-image: radial-gradient(red,yellow,white,green);
+      height: 200px;
+      width: 200px;
+      margin: 300px 0px 0px 500px;
+}
+div.twelve{
+      background-image: conic-gradient(red,blue,green,white,brown, yellow);
+      height: 200px;
+      width: 200px;
+      margin: -450px 0px 0px 500px;
+}
