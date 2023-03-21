@@ -1,0 +1,14 @@
+changes i have made:
+
+
+1. added the same page link(i.e, webby.html) to HOME button. If you click HOME button, the same page will open again.
+2. added a webpage to ABOUT button.
+3.added a webpage to SERVICES button.
+4.added Youtube chanel link to TUTORIALS button. 
+5.added a webpage to CONTACT button.
+6.added google search link to SEARCH button in NavBar. after clicking the search button, google search page will be opened.
+7.added all the respective websites links to all the icons(facebook,instagram,twitter,google,skype) below the login division. if you click facebook icon button, facebook website login page will be opened. 
+8. added one more button(gallery)
+9. added a webpage to gallery button which contains images of vegetables 
+10. added background images to about and contact webpages
+11. added icons in services webpage.
